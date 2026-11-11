@@ -1,0 +1,6 @@
+{
+  "name": "MSME Sahayak",
+  "description": "Integrated Digital Support Platform for Indian Micro, Small and Medium Enterprises - delayed payment recovery, working capital & inventory management with MySQL backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
