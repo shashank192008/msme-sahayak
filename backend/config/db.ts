@@ -23,6 +23,9 @@ const dbConfig = {
   password: process.env.MYSQL_PASSWORD || '',
   database: process.env.MYSQL_DATABASE || 'msme_sahayak',
   port: parseInt(process.env.MYSQL_PORT || '3306', 10),
+  ssl: process.env.MYSQL_SSL === 'true'
+    ? { minVersion: 'TLSv1.2' }
+    : undefined,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
